@@ -1,0 +1,43 @@
+# Ignore Cadence-generated files
+*.ic
+*.log
+*.diag
+*.o
+*.history
+*.bak
+*.tcf
+*.cdslck
+*.vpd
+*.simvision
+*.run
+*.vcd
+*.dsn
+*.cfg
+*.session
+
+# Ignore simulation results
+netlist/
+simulation/
+waveforms/
+
+# Ignore Virtuoso lock files
+*.cdslck
+*.cdsenv
+*.cdsinit
+*.cdsidx
+*.cdslck
+*.cdb
+*.cbk
+*.cfg
+
+# Ignore extracted views
+*/.svn
+*.drc
+*.lvs
+*.ext
+*.pex
+
+# Ignore temporary files
+*.swp
+*.swo
+
