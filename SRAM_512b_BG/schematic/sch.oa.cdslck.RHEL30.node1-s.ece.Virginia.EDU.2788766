@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Wed Feb 26 19:19:23 2025 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/SRAM_512b_TB_BG/schematic/sch.oa.cdslck
-TimeEditLocked                 Wed Feb 26 21:58:54 2025 EST
+FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/SRAM_512b_BG/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Feb 26 22:17:13 2025 EST
