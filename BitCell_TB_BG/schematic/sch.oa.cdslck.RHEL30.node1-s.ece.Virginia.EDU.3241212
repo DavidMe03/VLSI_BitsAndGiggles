@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      rrx7xw
 HostName                       node1-s.ece.Virginia.EDU
-ProcessIdentifier              1929286
-ProcessCreationTime_UTC        1740417606
-ProcessCreationTime_Readable   Mon Feb 24 12:20:06 2025 EST
+ProcessIdentifier              3241212
+ProcessCreationTime_UTC        1740637250
+ProcessCreationTime_Readable   Thu Feb 27 01:20:50 2025 EST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/BitCell_TB_Butterfly_BG/schematic/sch.oa.cdslck
-TimeEditLocked                 Mon Feb 24 14:02:33 2025 EST
+FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/BitCell_TB_BG/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Feb 27 01:30:26 2025 EST
