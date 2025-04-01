@@ -1,0 +1,8 @@
+,Parameter,,,,,,TT,FF,SS,FS,SF
+,NMOS_VTL.inc,,,,,,<unspecified section>,<unspecified section>,<unspecified section>,<unspecified section>,<unspecified section>
+,PMOS_VTL.inc,,,,,,<unspecified section>,<unspecified section>,<unspecified section>,<unspecified section>,<unspecified section>
+
+Test,Output,Spec,Weight,Pass/Fail,Min,Max,TT,FF,SS,FS,SF
+VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1,/QB,,,,,,,,,,
+VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1,/Q,,,,,,,,,,
+

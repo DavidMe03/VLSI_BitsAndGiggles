@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      uwu7nc
+HostName                       gridley.ece.Virginia.EDU
+ProcessIdentifier              93207
+ProcessCreationTime_UTC        1740624353
+ProcessCreationTime_Readable   Wed Feb 26 21:45:53 2025 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/uwu7nc/cadence/my_work_area/pdk45/VLSI_BitsAndGiggles/BitCell_customWIll_BG/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu Feb 27 01:25:02 2025 EST
