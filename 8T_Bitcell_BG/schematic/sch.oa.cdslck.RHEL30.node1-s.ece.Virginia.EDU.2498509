@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Tue Apr  1 23:58:52 2025 EDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/schematic/sch.oa.cdslck
-TimeEditLocked                 Tue Apr  1 23:59:42 2025 EDT
+FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_BG/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Apr  2 01:26:49 2025 EDT

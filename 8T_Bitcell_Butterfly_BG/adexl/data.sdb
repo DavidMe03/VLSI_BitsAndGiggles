@@ -43,7 +43,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">FF
+			<corner enabled="0">FF
 				<models>
 					<model enabled="0">NMOS_VTL.inc
 						<modeltest>All</modeltest>
@@ -83,7 +83,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">SS
+			<corner enabled="0">SS
 				<models>
 					<model enabled="0">NMOS_VTL.inc
 						<modeltest>All</modeltest>
@@ -123,7 +123,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">FS
+			<corner enabled="0">FS
 				<models>
 					<model enabled="0">NMOS_VTL.inc
 						<modeltest>All</modeltest>
@@ -163,7 +163,7 @@
 					</model>
 				</models>
 			</corner>
-			<corner enabled="1">SF
+			<corner enabled="0">SF
 				<models>
 					<model enabled="0">NMOS_VTL.inc
 						<modeltest>All</modeltest>
@@ -295,321 +295,6 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
-			<checkpoint>
-				<corners>
-					<corner enabled="0">_default</corner>
-					<corner enabled="0">TT
-						<models>
-							<model enabled="1">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="1">FF
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">SS
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">FS
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">SF
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>8T_Bitcell_Butterfly_BG</value>
-							</option>
-							<option>lib
-								<value>VLSI_BitsAndGiggles</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1_tmpstate.335455373_Interactive.2</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>8T_Bitcell_Butterfly_BG</value>
-							</option>
-							<option>lib
-								<value>VLSI_BitsAndGiggles</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>tmpstate.335455373</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>vdin
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 31 19:37:37 2025</timestamp>
-			<uuid>{277d9d5a-3761-4365-ae99-1e54dc7ff37e}</uuid>
-			<resultsname>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.2.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/node1-s.ece.Virginia.EDU_rrx7xw_193737607</localpsfdir>
-			<psfdir>/net/marysrock.ece.Virginia.EDU/marydata1/scratch/rrx7xw/simulation/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.2</psfdir>
-			<simdir>$AXL_PROJECT_DIR/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.2</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.2.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
 			<checkpoint>
 				<corners>
@@ -927,321 +612,6 @@
 			<resultspsfisuserpath>1</resultspsfisuserpath>
 			<resultsisuserpath>1</resultsisuserpath>
 			<locked>1</locked>
-		</historyentry>
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.4
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-					<corner enabled="0">TT
-						<models>
-							<model enabled="1">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">FF
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="1">SS
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">FS
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-					<corner enabled="0">SF
-						<models>
-							<model enabled="0">NMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">PMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">NMOS_VTL.inc:1
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="1">NMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-							<model enabled="0">PMOS_VTL.inc:2
-								<modeltest>All</modeltest>
-								<modelblock>Global</modelblock>
-								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
-								<modelsection></modelsection>
-							</model>
-						</models>
-					</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test enabled="1">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>8T_Bitcell_Butterfly_BG</value>
-							</option>
-							<option>lib
-								<value>VLSI_BitsAndGiggles</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1_tmpstate.335455373_Interactive.4</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>8T_Bitcell_Butterfly_BG</value>
-							</option>
-							<option>lib
-								<value>VLSI_BitsAndGiggles</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>tmpstate.335455373</value>
-							</option>
-						</origoptions>
-					</test>
-				</tests>
-				<vars>
-					<var>vdin
-						<value>0</value>
-						<dependentTests>
-							<dependentTest omitted="0">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<overwritehistoryname>Interactive.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Mar 31 20:24:44 2025</timestamp>
-			<uuid>{bd32eecf-4f99-4c4f-91d6-7cc11ad39edd}</uuid>
-			<resultsname>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.4.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.4.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/node1-s.ece.Virginia.EDU_rrx7xw_202444414</localpsfdir>
-			<psfdir>/net/marysrock.ece.Virginia.EDU/marydata1/scratch/rrx7xw/simulation/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.4</psfdir>
-			<simdir>$AXL_PROJECT_DIR/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.4</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.4.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.4.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
 		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.5
 			<checkpoint>
@@ -3760,6 +3130,636 @@
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
 			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.12.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.12.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.13
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">TT
+						<models>
+							<model enabled="1">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FS
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SF
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>8T_Bitcell_Butterfly_BG</value>
+							</option>
+							<option>lib
+								<value>VLSI_BitsAndGiggles</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1_tmpstate.335455373_Interactive.13</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>8T_Bitcell_Butterfly_BG</value>
+							</option>
+							<option>lib
+								<value>VLSI_BitsAndGiggles</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.335455373</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdin
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 2 00:38:30 2025</timestamp>
+			<uuid>{eb91f08d-8c19-431e-b090-4f5c53964096}</uuid>
+			<resultsname>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.13.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.13.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/node1-s.ece.Virginia.EDU_rrx7xw_003830793</localpsfdir>
+			<psfdir>/net/marysrock.ece.Virginia.EDU/marydata1/scratch/rrx7xw/simulation/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.13</psfdir>
+			<simdir>$AXL_PROJECT_DIR/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.13</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.13.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.13.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.14
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="1">TT
+						<models>
+							<model enabled="1">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF
+						<models>
+							<model enabled="0">NMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_nom/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">PMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">NMOS_VTL.inc:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ff/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">NMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/NMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">PMOS_VTL.inc:2
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/app/lib/freepdk45/trunk/ncsu_basekit/models/hspice/tran_models/models_ss/PMOS_VTL.inc</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>8T_Bitcell_Butterfly_BG</value>
+							</option>
+							<option>lib
+								<value>VLSI_BitsAndGiggles</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1_tmpstate.335455373_Interactive.14</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>8T_Bitcell_Butterfly_BG</value>
+							</option>
+							<option>lib
+								<value>VLSI_BitsAndGiggles</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.335455373</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>vdin
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">VLSI_BitsAndGiggles:8T_Bitcell_Butterfly_BG:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 2 00:46:58 2025</timestamp>
+			<uuid>{fad93ab3-3cc1-41d9-adcf-bb30feec1773}</uuid>
+			<resultsname>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.14.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.14.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/node1-s.ece.Virginia.EDU_rrx7xw_004658792</localpsfdir>
+			<psfdir>/net/marysrock.ece.Virginia.EDU/marydata1/scratch/rrx7xw/simulation/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.14</psfdir>
+			<simdir>$AXL_PROJECT_DIR/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.14</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/8T_Bitcell_Butterfly_BG/adexl/results/data/Interactive.14.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.14.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
 		</historyentry>
