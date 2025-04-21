@@ -7,7 +7,7 @@
     (tranType "dc") 
     (srcType "Voltage")
     (instParameters 
-	(dc("1.1") 
+	(dc("0") 
 	    mag("") 
 	    phase("") 
 	    (xfmag "") 
