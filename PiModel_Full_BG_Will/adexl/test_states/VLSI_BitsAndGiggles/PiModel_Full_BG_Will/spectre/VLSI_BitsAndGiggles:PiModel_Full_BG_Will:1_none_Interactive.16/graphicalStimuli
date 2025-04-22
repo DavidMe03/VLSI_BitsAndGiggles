@@ -17,7 +17,7 @@
 	)
     ) 
     (otherParameters 
-	((data "010101010101") 
+	((data "010101") 
 	    (rptstart "1") 
 	    (rpttimes "0") 
 	    (trigger "Internal") 
@@ -54,7 +54,7 @@
 	)
     ) 
     (otherParameters 
-	((data "00001100") 
+	((data "000011") 
 	    (rptstart "1") 
 	    (rpttimes "0") 
 	    (trigger "Internal") 
