@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<setupdb version="6">PVT1
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<tests>
+			<test>VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>PiModel_Full_BG_Will</value>
+					</option>
+					<option>lib
+						<value>VLSI_BitsAndGiggles</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/states/PVT1/test_states</value>
+					</option>
+					<option>state
+						<value>VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>PiModel_Full_BG_Will</value>
+					</option>
+					<option>lib
+						<value>VLSI_BitsAndGiggles</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>/dataOut&lt;31:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/Din&lt;31:0&gt;
+						<evalType>point</evalType>
+					</output>
+					<output>/ADDR&lt;6:1&gt;
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="0">T
+				<value>1n:10n:101n</value>
+			</var>
+			<var enabled="1">Vin
+				<value>1.1</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<allsweepsenabled>1</allsweepsenabled>
+	</active>
+	<history>History</history>
+</setupdb>
