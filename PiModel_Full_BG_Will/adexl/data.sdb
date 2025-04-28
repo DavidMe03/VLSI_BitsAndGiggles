@@ -110,130 +110,6 @@
 		</plottingoptions>
 	</active>
 	<history>History
-		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.10
-			<checkpoint>
-				<corners>
-					<corner enabled="1">_default</corner>
-				</corners>
-				<extensions>
-					<extension>Parasitics
-						<callback>_parSetupDBExtensionCB</callback>
-						<iconvalue></iconvalue>
-						<icontype></icontype>
-					</extension>
-				</extensions>
-				<currentmode>Single Run, Sweeps and Corners</currentmode>
-				<overwritehistory>0</overwritehistory>
-				<tests>
-					<test>VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1
-						<tool>ADE</tool>
-						<tooloptions>
-							<option>cell
-								<value>PiModel_Full_BG_Will</value>
-							</option>
-							<option>lib
-								<value>VLSI_BitsAndGiggles</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>state
-								<value>VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1_none_Interactive.10</value>
-							</option>
-						</tooloptions>
-						<origoptions>
-							<option>cell
-								<value>PiModel_Full_BG_Will</value>
-							</option>
-							<option>lib
-								<value>VLSI_BitsAndGiggles</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
-						</origoptions>
-						<outputs>
-							<output>/dataOut&lt;31:0&gt;
-								<evalType>point</evalType>
-							</output>
-							<output>/Din&lt;31:0&gt;
-								<evalType>point</evalType>
-							</output>
-							<output>/ADDR&lt;6:1&gt;
-								<evalType>point</evalType>
-							</output>
-						</outputs>
-					</test>
-				</tests>
-				<vars>
-					<var enabled="0">T
-						<value>1n:10n:101n</value>
-					</var>
-					<var enabled="1">Vin
-						<value>1.1</value>
-						<dependentTests>
-							<dependentTest enabled="1">VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1</dependentTest>
-						</dependentTests>
-					</var>
-				</vars>
-				<allsweepsenabled>1</allsweepsenabled>
-				<overwritehistoryname>PVT1.0</overwritehistoryname>
-				<plottingoptions>
-					<plottingoption>plottingmode
-						<value>Replace</value>
-					</plottingoption>
-					<plottingoption>plottype
-						<value>None</value>
-					</plottingoption>
-					<plottingoption>usewaveformtemplate
-						<value>no</value>
-					</plottingoption>
-					<plottingoption>useMaestroPlottingTemplate
-						<value>yes</value>
-					</plottingoption>
-					<plottingoption>waveformtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>allplottingtemplates
-						<value></value>
-					</plottingoption>
-					<plottingoption>defaultplottingtemplate
-						<value></value>
-					</plottingoption>
-					<plottingoption>distributedplot_enabled
-						<value>no</value>
-					</plottingoption>
-				</plottingoptions>
-				<sortVariableValues>0</sortVariableValues>
-			</checkpoint>
-			<timestamp>Apr 22 04:04:30 2025</timestamp>
-			<uuid>{eedb6d22-ff1b-4c08-a655-ad6c5c2a5518}</uuid>
-			<resultsname>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.10.rdb</resultsname>
-			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.10.rdb</simresults>
-			<rawdatadelstrategy>SaveAll
-				<simdatasavemode>All</simdatasavemode>
-			</rawdatadelstrategy>
-			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
-			<netlistdelstrategy>SaveAll</netlistdelstrategy>
-			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/node1-s.ece.Virginia.EDU_rrx7xw_040430674</localpsfdir>
-			<psfdir>/net/marysrock.ece.Virginia.EDU/marydata1/scratch/rrx7xw/simulation/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.10</psfdir>
-			<simdir>$AXL_PROJECT_DIR/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.10</simdir>
-			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.10.log</runlog>
-			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.10.log</runlogfile>
-			<schematicpoint></schematicpoint>
-			<test>all</test>
-		</historyentry>
 		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.11
 			<checkpoint>
 				<corners>
@@ -1401,6 +1277,142 @@
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
 			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.19.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.19.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>t
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.20
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PiModel_Full_BG_Will</value>
+							</option>
+							<option>lib
+								<value>VLSI_BitsAndGiggles</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1_none_Interactive.20</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PiModel_Full_BG_Will</value>
+							</option>
+							<option>lib
+								<value>VLSI_BitsAndGiggles</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>/dataOut&lt;31:0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>/Din&lt;31:0&gt;
+								<evalType>point</evalType>
+							</output>
+							<output>/ADDR&lt;6:1&gt;
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">T
+						<value>1n:10n:101n</value>
+					</var>
+					<var enabled="1">Vin
+						<value>1.1</value>
+						<dependentTests>
+							<dependentTest enabled="1">VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>t
+						<value>{From/To}Auto:1n:5:10n{From/To}</value>
+						<dependentTests>
+							<dependentTest omitted="0">VLSI_BitsAndGiggles:PiModel_Full_BG_Will:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allsweepsenabled>1</allsweepsenabled>
+				<overwritehistoryname>PVT1.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>distributedplot_enabled
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Apr 28 18:09:08 2025</timestamp>
+			<uuid>{81a8dc09-0e99-464b-abc3-95a5139ccf6a}</uuid>
+			<resultsname>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.20.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.20.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<saveevalerrorstrategy>SaveNone</saveevalerrorstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/node1-s.ece.Virginia.EDU_rrx7xw_180908460</localpsfdir>
+			<psfdir>/net/marysrock.ece.Virginia.EDU/marydata1/scratch/rrx7xw/simulation/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.20</psfdir>
+			<simdir>$AXL_PROJECT_DIR/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.20</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<runlog>/net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/PiModel_Full_BG_Will/adexl/results/data/Interactive.20.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.20.log</runlogfile>
 			<schematicpoint>
 				<vars>
 					<var>t

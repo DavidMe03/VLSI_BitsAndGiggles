@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rrx7xw
+HostName                       node1-s.ece.Virginia.EDU
+ProcessIdentifier              3745670
+ProcessCreationTime_UTC        1745870194
+ProcessCreationTime_Readable   Mon Apr 28 15:56:34 2025 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /net/marysrock.ece.Virginia.EDU/maryisan/users/rrx7xw/cadence/pdk45/VLSI_BitsAndGiggles/6_64decoder_BG/symbol/symbol.oa.cdslck
+TimeEditLocked                 Mon Apr 28 18:04:04 2025 EDT
